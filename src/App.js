@@ -11,7 +11,7 @@ function App() {
     <div className="canvas-container" style={{ height: '100vh', }}>
       <Canvas>
         <ambientLight intensity={0.1} />
-        <ScrollControls pages={3} damping={0.1}>
+        <ScrollControls pages={1.65} damping={0.1}>
           <Environment background files="./assets/lights.hdr" blur={0.3} />
           <Model  />
           {/* <OrbitControls/> */}

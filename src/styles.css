@@ -21,8 +21,13 @@ body,
   /* background-color: transparent; */
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-y: hidden;
   user-select: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 #leva__root{
