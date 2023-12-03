@@ -58,7 +58,7 @@ canvas {
 
 .section--container {
   margin-top: 10vh;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .section--container h1 {
@@ -67,14 +67,14 @@ canvas {
   letter-spacing: -4px;
   color: #ffffff;
   font-style: italic;
-  width: 40%;
+  /* width: 40%; */
   line-height: 8rem;
   font-family: 'Nunito Sans', sans-serif;
 }
 
 .support--content {
   position: relative;
-  margin-top: 30%;
+  margin-top: 40%;
   left: 0vh;
   animation: fade-in 2s ease 0.3s forwards;
 }
@@ -95,14 +95,14 @@ canvas {
   }
 
   .section--container h1 {
-    font-size: 4rem; 
-    margin-left: 10%;
+    font-size: 3.7rem; 
+    margin-left: 5%;
     line-height: 4rem;
   }
   
   .support--content {
   position: relative;
-  padding-top: 55%;
+  padding-top: 65%;
   left: 10%;
   animation: fade-in 2s ease 0.3s forwards;
 }
